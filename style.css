@@ -294,3 +294,11 @@ span {
     font-size: 2rem;
     color: var(--second-bg-color);
 }
+    
+    .contact h2{
+    margin-bottom:3rem;
+    }
+    
+    .contact form{
+    max-width:70rem;
+    }
