@@ -92,8 +92,6 @@ section {
   border: 5px solid black;
 }
 
-}
-
 @keyframes floatImage {
     0% {
         transform: translateY(0);
