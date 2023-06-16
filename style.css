@@ -88,7 +88,7 @@ section {
     width: 25vw;
     border-radius: 20px;
     animation: floatImage 4s ease-in-out infinite;
- clip-hexagon(50% 0%, 80% 25%, 100% 75%, 18% 100%, 0% 38%);
+ clip-hexagon(50% 0%, 80% 25%, 100% 75%, 50% 100%, 0% 38%);
   border: 5px solid black;
 }
 
