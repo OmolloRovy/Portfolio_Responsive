@@ -58,3 +58,21 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
+function sendEmail() {
+    Email.send({
+        Host: "smtp.gmail.com",
+        Username: "omollovanistelrooy",
+        Password: "omollo32t",
+        To: 'omollovanistelrooy@gmail.com',
+        From: document.getElementById("email").value,
+        Subject: "New ontact Form Enquiry",
+        Body: "Name: " + document.getElementById("name").value +
+            "<br> Email: " + document.getElementById("email").value +
+            "<br> Phone Number: " + document.getElementById("number").value +
+            "<br> Message: " + document.getElementById("message").value
+    }).then(
+        message => alert("Message sent successfuly")
+    )
+}
+/*================Smtp api move to elastic email and create an account     ` ===============*/
+
