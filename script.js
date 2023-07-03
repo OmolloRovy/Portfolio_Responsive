@@ -80,7 +80,7 @@ function sendEmail(){
 /*SMTP PASSWORD 8D0D35B0347D3BDEF262640B6BE9862BB6F4*/
 function downloadCV() {
    
-    const fileUrl = 'https://github.com/d5482a04-27d5-4cf2-bb10-696837ba4ec6';
+    const fileUrl = 'blob:https://github.com/4cded5b9-b49e-4395-ad11-66851b1b5fcb';
 
     // Create an anchor element
     const link = document.createElement('a');
