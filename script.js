@@ -65,7 +65,7 @@ function sendEmail(){
                 Username : "omollovanistelrooy@gmail.com",
                 Password : "omollo32t",
                 To : 'omollovanistelrooy@gmail.com',
-                From : document.getElementById(email).value,
+                From : document.getElementById("email").value,
                 Subject : "This is the subject",
                 Body : "And this is the body"
             }).then(
