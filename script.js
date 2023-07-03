@@ -63,8 +63,8 @@ function sendEmail(){
             Email.send({
                 Host : "smtp.gmail.com",
                 Username : "omollovanistelrooy@gmail.com",
-                Password : "password",
-                To : 'them@website.com',
+                Password : "omollo32t",
+                To : 'omollovanistelrooy@gmail.com',
                 From : "you@isp.com",
                 Subject : "This is the subject",
                 Body : "And this is the body"
