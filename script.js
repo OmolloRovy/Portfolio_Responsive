@@ -87,7 +87,7 @@ function downloadCV() {
     link.href = fileUrl;
 
     // Set the download attribute to specify the desired filename
-    link.download = 'CV.pdf'; // Replace 'CV.pdf' with the desired filename for the CV
+    link.download = 'VANISTELROOY RESUME.pdf'; // Replace 'CV.pdf' with the desired filename for the CV
 
     // Append the anchor element to the document body
     document.body.appendChild(link);
