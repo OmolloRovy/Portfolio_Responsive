@@ -78,3 +78,23 @@ function sendEmail(){
 /*================Smtp api move to elastic email and create an account     ` ===============*/
 
 /*SMTP PASSWORD 8D0D35B0347D3BDEF262640B6BE9862BB6F4*/
+function downloadCV() {
+    // Replace 'YOUR_FILE_URL' with the direct link to your CV document on GitHub
+    const fileUrl = 'YOUR_FILE_URL';
+
+    // Create an anchor element
+    const link = document.createElement('a');
+    link.href = fileUrl;
+
+    // Set the download attribute to specify the desired filename
+    link.download = 'CV.pdf'; // Replace 'CV.pdf' with the desired filename for the CV
+
+    // Append the anchor element to the document body
+    document.body.appendChild(link);
+
+    // Programmatically trigger the click event on the anchor element
+    link.click();
+
+    // Remove the anchor element from the document body
+    document.body.removeChild(link);
+}
