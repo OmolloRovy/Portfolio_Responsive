@@ -98,5 +98,5 @@ function downloadCV() {
     // Remove the anchor element from the document body
     document.body.removeChild(link);
 }
-const cvDownloadButton = document.getElementById('cv-download-button');
+const cvDownloadButton = document.getElementById('cvDownloadButton');
 cvDownloadButton.addEventListener('click', downloadCV);
