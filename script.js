@@ -62,7 +62,7 @@ const typed = new Typed('.multiple-text', {
 function sendEmail(){
             Email.send({
                 Host : "smtp.gmail.com",
-                Username : "username",
+                Username : "omollovanistelrooy@gmail.com",
                 Password : "password",
                 To : 'them@website.com',
                 From : "you@isp.com",
