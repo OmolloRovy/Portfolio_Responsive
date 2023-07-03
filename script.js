@@ -80,7 +80,7 @@ function sendEmail(){
 /*SMTP PASSWORD 8D0D35B0347D3BDEF262640B6BE9862BB6F4*/
 function downloadCV() {
     // Replace 'YOUR_FILE_URL' with the direct link to your CV document on GitHub
-    const fileUrl = 'YOUR_FILE_URL';
+    const fileUrl = 'https://github.com/e5347f4b-8726-40b4-bcbc-9f9c2ce8fcf1';
 
     // Create an anchor element
     const link = document.createElement('a');
