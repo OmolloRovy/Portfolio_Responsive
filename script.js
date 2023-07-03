@@ -58,7 +58,7 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
-
+/*==============
 function sendEmail(){
             Email.send({
                 Host : "smtp.gmail.com",
@@ -72,7 +72,8 @@ function sendEmail(){
               message => alert(message)
             );
     }
-
+    ===============*/
+/*============== thisabove is an smtp try to connect the form to AN email===============*/
 
 /*================Smtp api move to elastic email and create an account     ` ===============*/
 
