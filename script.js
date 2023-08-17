@@ -100,3 +100,23 @@ function downloadCV() {
 }
 const cvDownloadButton = document.getElementById('cvDownloadButton');
 cvDownloadButton.addEventListener('click', downloadCV);
+
+
+
+document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form from submitting normally
+
+    // Simulate form submission (replace this with your actual form submission code)
+    // For demonstration purposes, we're just showing the "thankYou" div after a delay
+    setTimeout(function() {
+        document.getElementById("myForm").style.display = "none"; // Hide the form
+        document.getElementById("thankYou").style.display = "block"; // Show the thank you message
+
+        // Redirect back to the home page after a delay
+        setTimeout(function() {
+            window.location.href = "index.html"; // Replace with your home page URL
+        }, 3000); // Delay for 3 seconds before redirecting
+    }, 1000); // Delay for 1 second
+});
+
+    
