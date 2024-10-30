@@ -107,7 +107,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent form from submitting normally
 
     // Simulate form submission (replace this with your actual form submission code)
-    // For demonstration purposes, we're just showing the "thankYou" div after a delay
+    // For demonstration purposes, were just showing the "thankYou" div after a delay
     setTimeout(function() {
         document.getElementById("myForm").style.display = "none"; // Hide the form
         document.getElementById("thankYou").style.display = "block"; // Show the thank you message
