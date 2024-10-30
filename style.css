@@ -43,6 +43,8 @@ section {
     align-items: center;
     z-index: 100;
     background: var(--bg-color);
+   height:100px;
+  
 }
 
 .header.sticky {
@@ -50,10 +52,8 @@ section {
 }
 
 .logo {
-    font-size: 2.5rem;
-    color: var(--text-color);
-    font-weight: 600;
-    cursor: default;
+   width: 200px; 
+  height: 200px;
 }
 
 .navbar a {
@@ -72,6 +72,7 @@ section {
     color: var(--main-color);
 }
 
+
 #menu-icon {
     font-size: 3.6rem;
     color: var(--text-color);
@@ -79,6 +80,7 @@ section {
 }
 
 .home {
+     margin-top:0rem;
     display: flex;
     justify-content: center;
     align-items: center;
